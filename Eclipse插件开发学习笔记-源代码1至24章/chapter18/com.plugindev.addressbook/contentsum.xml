@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compositeCheatsheet name="地址本复合备忘单">
+   <taskGroup name="创建备忘单" kind="choice">
+      <intro>
+         这组复合备忘单是地址本插件向用户提供的备忘单。
+      </intro>
+      <onCompletion>
+         恭喜你！你已经完成了地址本复合备忘单的所有操作。
+      </onCompletion>
+      <taskGroup name="创建备忘单" kind="sequence">
+         <intro>
+			这一组备忘单用来向用户介绍同地址本插件中的“创建”操作相关的内容。
+         </intro>
+         <onCompletion>
+         恭喜你！你已经完成了“创建”备忘单中的所有操作！
+         </onCompletion>
+         <task kind="cheatsheet" name="创建地址项" id="create">
+         <intro>
+         本教程将指导用户创建新的地址本元素。
+         </intro>
+         <param name="id" value="com.plugindev.addressbook.cheatsheet.create" />
+         </task>
+      </taskGroup>
+      <taskGroup name="编辑备忘组" kind="set">
+         <intro>
+         这一组备忘单用来向用户介绍如何定制地址本编辑器中的内容。
+         </intro>
+         <onCompletion>
+         恭喜你！你已经完成了“编辑”备忘单中的所有操作！
+         </onCompletion>
+         <task kind="cheatsheet" name="编辑地址项" skip="true">
+         <param name="path" value="/content2.xml" />
+         <param name="showIntro" value="false" />
+           <intro>
+           本教程将指导用户创建新的地址本元素
+           </intro>
+         </task>
+      </taskGroup>
+   </taskGroup>
+</compositeCheatsheet>

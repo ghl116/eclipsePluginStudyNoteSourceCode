@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+    <page id="root" content="content/root.xhtml"/>
+    <page id="page1" content="content/page1.xhtml"/>
+    <page id="page2" content="content/page2.xhtml"/>
+</introContent>

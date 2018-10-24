@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="定制界面" link_to="toc.xml#customui"> 
+	<topic label="首选项"  href="html/定制界面/首选项.htm"/>
+</toc>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Addressbook Plug-in
+Bundle-SymbolicName: com.plugindev.addressbook; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.plugindev.addressbook.Activator
+Bundle-Vendor: PLUGINDEV
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.views,
+ org.eclipse.ui.ide,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.ui.forms,
+ org.eclipse.ui.cheatsheets
+Eclipse-LazyStart: true
+Export-Package: com.plugindev.addressbook.extension,
+ com.plugindev.addressbook.perspectives
+Bundle-ClassPath: .

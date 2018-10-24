@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="快速开始" link_to="toc.xml#quickstart"> 
+	<topic label="备忘单"  href="html/快速开始/备忘单.htm"/>
+</toc>

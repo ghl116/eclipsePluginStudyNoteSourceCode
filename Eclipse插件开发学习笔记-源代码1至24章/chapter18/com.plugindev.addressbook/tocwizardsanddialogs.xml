@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="向导和对话框" link_to="toc.xml#wizardsanddialogs"> 
+	<topic label="对话框"  href="html/向导和对话框/对话框.htm"/> 
+	<topic label="向导"  href="html/向导和对话框/向导.htm"/> 
+</toc>

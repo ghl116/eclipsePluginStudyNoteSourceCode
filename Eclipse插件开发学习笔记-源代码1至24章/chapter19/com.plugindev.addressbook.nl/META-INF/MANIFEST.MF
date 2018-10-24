@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Nl Fragment
+Bundle-SymbolicName: com.plugindev.addressbook.nl
+Bundle-Version: 1.0.0
+Bundle-Vendor: PLUGINDEV
+Fragment-Host: com.plugindev.addressbook;bundle-version="1.0.0"
+Bundle-Localization: plugin

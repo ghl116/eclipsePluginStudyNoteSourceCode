@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: To-Dos Core Part
+Bundle-SymbolicName: rcpdev.todo.core;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: rcpdev.todo.core.Activator
+Bundle-Vendor: Harper
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,
+ rcpdev.thirdparty,
+ rcpdev.common.core
+Eclipse-LazyStart: true
+Export-Package: rcpdev.todo.core,
+ rcpdev.todo.core.model,
+ rcpdev.todo.core.model.series,
+ rcpdev.todo.core.model.series.info,
+ rcpdev.todo.core.storage

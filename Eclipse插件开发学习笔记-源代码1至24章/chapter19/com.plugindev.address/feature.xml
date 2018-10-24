@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.plugindev.address"
+      label="Address 功能部件"
+      version="1.0.1"
+      provider-name="PLUGINDEV"
+      plugin="com.plugindev.addressbook">
+
+   <description url="http://www.example.com/description">
+      [在此处输入功能部件描述。]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [在此处输入版权描述。]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [在此处输入许可证描述。]
+   </license>
+
+   <url>
+      <update label="地址本插件更新站点" url="file:/D:/updatesite"/>
+   </url>
+
+   <plugin
+         id="com.plugindev.addressbook"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.plugindev.addressbook.nl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.plugindev.addressbook.nljp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

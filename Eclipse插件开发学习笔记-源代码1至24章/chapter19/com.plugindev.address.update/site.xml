@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="file:/D:/updatesite">
+      地址本插件更新站点
+   </description>
+   <feature url="features/com.plugindev.address_1.0.1.jar" id="com.plugindev.address" version="1.0.1">
+      <category name="地址本插件类别"/>
+   </feature>
+   <category-def name="地址本插件类别" label="addressCategory"/>
+</site>

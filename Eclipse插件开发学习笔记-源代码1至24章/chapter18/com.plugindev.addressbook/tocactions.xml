@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+<toc label="操作" link_to="toc.xml#actions"> 
+	<topic label="概述"  href="html/操作/概述/操作.htm"> 
+	</topic>
+	<topic label="详细介绍">
+		<topic label="工作台操作" href="html/操作/详细介绍/工作台操作.htm" /> 
+		<topic label="视图操作" href="html/操作/详细介绍/视图操作.htm" />
+		<topic label="编辑器操作" href="html/操作/详细介绍/编辑器操作.htm" />
+	</topic> 
+</toc>

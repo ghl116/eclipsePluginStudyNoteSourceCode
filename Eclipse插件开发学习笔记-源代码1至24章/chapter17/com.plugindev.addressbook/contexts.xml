@@ -1,0 +1,22 @@
+<contexts>
+   <context id="address_view">
+      <description>这是地址本视图。</description>
+      <topic href="html/基本用户界面/视图.htm"
+         label="使用地址本视图"/>
+   </context>
+   <context id="view_deleteaction">
+      <description>该命令从视图中删除元素。</description>
+      <topic href="html/操作/详细介绍/视图操作.htm"
+         label="地址本视图操作"/>
+   </context>
+   <context id="view_addaction">
+      <description>该命令在视图中增加一个元素。</description>
+      <topic href="html/操作/详细介绍/视图操作.htm"
+         label="地址本视图操作"/>
+   </context>
+   <context id="view_filteraction">
+      <description>该命令过滤视图中指定的元素。</description>
+      <topic href="html/操作/详细介绍/视图操作.htm"
+         label="地址本视图操作"/>
+   </context>
+</contexts>

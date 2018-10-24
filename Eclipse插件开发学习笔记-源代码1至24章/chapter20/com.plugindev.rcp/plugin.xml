@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.plugindev.rcp.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.plugindev.rcp.application"
+            name="地址本应用程序">
+         <property
+               name="windowImages"
+               value="platform:/plugin/com.plugindev.addressbook/icons/people.gif"/>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true"/>
+      <toc
+            file="introToc.xml"
+            primary="false"/>
+      <toc
+            file="conceptToc.xml"
+            primary="false"/>
+      <toc
+            file="taskToc.xml"
+            primary="false"/>
+   </extension>
+   <extension
+         point="org.eclipse.help.index">
+      <index file="index.xml"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.plugindev.rcp.actionSet"
+            label="HelpActionSet"
+            visible="true">
+         <menu
+               id="helpMenu"
+               label="%actionSet.helpMenu.label"
+               path="AddressBookMenu">
+            <separator name="updateGroup"/>
+         </menu>
+         <action
+               class="com.plugindev.rcp.actions.UpdateAction"
+               icon="icons/sample.gif"
+               id="com.plugindev.rcp.actions.UpdateAction"
+               label="%actionSet.updateAction.label"
+               menubarPath="helpMenu/updateGroup"
+               tooltip="%actionSet.updateAction.tooltip"/>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro">
+      <intro
+            class="org.eclipse.ui.intro.config.CustomizableIntroPart"
+            id="com.plugindev.rcp.intro"/>
+      <introProductBinding
+            introId="com.plugindev.rcp.intro"
+            productId="com.plugindev.rcp.product"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.intro.config">
+      <config
+            content="introContent.xml"
+            id="com.plugindev.rcp.introConfigId"
+            introId="com.plugindev.rcp.intro">
+         <presentation home-page-id="root">
+            <implementation
+                  kind="html"
+                  />
+         </presentation>
+      </config>
+   </extension>
+
+</plugin>

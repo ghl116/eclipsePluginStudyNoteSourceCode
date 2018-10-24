@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="在地址本中添加新项">
+  <intro>
+<description>本教程将指导用户创建新的地址本元素</description>
+  </intro>
+  <item title="设置编辑列表" skip="true">
+ <description>地址本插件支持用户设置需要编辑列表项。用户可以选择或者取消默认的三个编辑列表项。在向导页面的第二页，选择选中或者去掉列表项前面的对勾，就可以选择或者去掉出现在“编辑”页面中的列表项。
+ </description>
+  </item>
+  <item title="编辑新元素的内容">
+ <description>在向导对话框中选择了完成后，地址本插件将会打开编辑器，跳转到“编辑”页面。在编辑页面中，选择左侧编辑列表中的列表项，在右侧编辑每个列表项的属性。
+ </description>  
+  </item>
+  <item title="查看列表内容" skip="true">
+ <description>在编辑的过程中，可以跳转编辑器的页面到其他页面（如果选择了这些页面的话）来查看在“编辑”页面创建的编辑内容。
+ </description>
+  </item>
+</cheatsheet>

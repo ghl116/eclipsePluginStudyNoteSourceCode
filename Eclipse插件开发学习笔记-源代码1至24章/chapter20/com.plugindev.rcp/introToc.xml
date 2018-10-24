@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Intro">
+	<topic label="简介" href="html/intro/intro.html">
+		<topic label="地址本应用程序功能" href="html/intro/function.html"/>
+		<topic label="官方网站与升级" href="html/intro/update.html"/>
+	</topic>
+</toc>

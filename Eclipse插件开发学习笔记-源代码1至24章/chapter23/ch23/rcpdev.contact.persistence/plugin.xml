@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="rcpdev.contact.core.persistence">
+      <storage class="rcpdev.contact.persistence.TopLinkContactFacade"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="contactPage"
+            class="rcpdev.contact.persistence.preferences.MySQLPreferencePage"
+            id="contactMysqlPage"
+            name="MySQL Configuration"/>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer class="rcpdev.contact.persistence.preferences.PreferenceInitializer"/>
+   </extension>
+
+</plugin>

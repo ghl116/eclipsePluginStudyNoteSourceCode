@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="rcpdev.todo.core.facade">
+      <facade class="rcpdev.todo.persistence.TopLinkTodoFacade"/>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="rcpdev.todo.persistence.preferences.PreferenceInitializer"
+            />
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="todoPreferencePage"
+            class="rcpdev.todo.persistence.preferences.MySQLPreferencePage"
+            id="mysqlConnectionPreference"
+            name="MySQL Connection"/>
+      <page
+            class="rcpdev.todo.persistence.preferences.TodoPreferencePage"
+            id="todoPreferencePage"
+            name="To-Dos"/>
+   </extension>
+
+</plugin>

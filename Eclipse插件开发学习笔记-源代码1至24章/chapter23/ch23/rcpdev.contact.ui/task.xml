@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="任务">
+	<topic label="任务" href="html/task/intro.html">
+		<topic label="创建联系人" href="html/task/create.html"/>
+		<topic label="查找与修改联系人" href="html/task/search_update.html"/>
+		<topic label="使用待办事项视图" href="html/task/todolist.html"/>
+	</topic>
+</toc>

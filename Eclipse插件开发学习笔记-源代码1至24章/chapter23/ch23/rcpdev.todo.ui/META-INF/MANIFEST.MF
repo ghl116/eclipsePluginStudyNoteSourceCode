@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: To-Dos UI Part
+Bundle-SymbolicName: rcpdev.todo.ui;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: rcpdev.todo.ui.Activator
+Bundle-Vendor: Harper
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms,
+ rcpdev.common.ui,
+ rcpdev.todo.core,
+ rcpdev.common.core
+Eclipse-LazyStart: true

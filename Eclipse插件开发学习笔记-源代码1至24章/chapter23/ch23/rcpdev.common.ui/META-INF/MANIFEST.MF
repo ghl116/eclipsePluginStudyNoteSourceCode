@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UI Common
+Bundle-SymbolicName: rcpdev.common.ui;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: rcpdev.common.ui.Activator
+Bundle-Vendor: Harper
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ rcpdev.common.core,
+ rcpdev.thirdparty
+Eclipse-LazyStart: true
+Export-Package: rcpdev.common.ui,
+ rcpdev.common.ui.databinding,
+ rcpdev.common.ui.javabeans,
+ rcpdev.common.ui.javabeans.text,
+ rcpdev.common.ui.lang,
+ rcpdev.common.ui.viewers

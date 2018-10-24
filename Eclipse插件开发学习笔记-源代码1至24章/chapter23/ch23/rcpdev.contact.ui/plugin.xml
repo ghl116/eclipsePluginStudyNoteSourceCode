@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            category="contactCategory"
+            class="rcpdev.contact.ui.views.contact.ContactView"
+            icon="icons/contact_view.gif"
+            id="rcpdev.contact.ui.views.contactView"
+            name="Contact List"/>
+       <view
+             allowMultiple="false"
+             category="contactCategory"
+             class="rcpdev.contact.ui.views.search.SearchContactView"
+             icon="icons/find_view.gif"
+             id="rcpdev.contact.ui.views.search.SearchContactView"
+             name="Search Contacts"/>
+       <category
+             id="contactCategory"
+             name="Contact Manager"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="rcpdev.contact.ui.editors.contact.ContactEditor"
+            contributorClass="rcpdev.contact.ui.editors.contact.ContactEditorActionBarContributor"
+            icon="icons/contact_editor.gif"
+            id="rcpdev.contact.ui.editors.ContactEditor"
+            name="Contact Editor"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="contactPage"
+            class="rcpdev.contact.ui.preferences.CategoryPreferencePage"
+            id="categoryPage"
+            name="Category"/>
+      <page
+            class="rcpdev.contact.ui.preferences.ContactPreferencePage"
+            id="contactPage"
+            name="Contact Manager"/>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="main.xml"
+            primary="true"/>
+      <toc
+            file="task.xml"
+            primary="false"/>
+      <toc
+            file="intro.xml"
+            primary="false"/>
+   </extension>
+</plugin>

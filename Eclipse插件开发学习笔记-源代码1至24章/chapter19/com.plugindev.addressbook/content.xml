@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="在地址本中添加新项">
+  <intro>
+<description>本教程将指导用户创建新的地址本元素</description>
+  </intro>
+  <item title="打开AddressBook透视图" skip="true">
+  <action pluginId="org.eclipse.ui.cheatsheets" 
+class="org.eclipse.ui.internal.cheatsheets.actions.OpenPerspective"
+param1="com.plugindev.addressbook.AddressBookPerspective"/>
+  <description>确保当前已经打开了AddressBook透视图。如果该透视图没有打开，那么选择“窗口”->
+  “打开透视图”->“AddressBook”。
+  </description>
+  </item>
+  <item title="打开“新建地址项”向导">
+    <action pluginId="org.eclipse.ui.cheatsheets" 
+class="org.eclipse.ui.internal.cheatsheets.actions.OpenPerspective"
+param1="com.plugindev.addressbook.AddressBookPerspective"/>
+ <description>选择“文件”->“新建”->“其它”，在其中选择AddressBook目录下的“新建地址项”向导。
+ 或者在“地址本视图”的工具栏中选择“添加”按钮，打开“新建地址项”向导对话框。
+ </description> 
+<repeated-subitem values="Albert, Bob, Cilin">
+	<subitem label="创建新的地址项 ${this}." skip="true">
+   	<action pluginId="com.plugindev.addressbook" 
+   	class="com.plugindev.addressbook.actions.CreateDefaultAddressCheatSheetAction"
+   	param1="${this}"/>
+   	</subitem>
+</repeated-subitem>
+ </item>
+  <item title="设置元素属性">
+      <action pluginId="com.plugindev.addressbook" 
+class="com.plugindev.addressbook.actions.AddAddressAction"/>
+ <description>在向导对话框中为将要创建的地址元素设置属性。地址元素的属性包含两部分，一部分是
+ “名称”，一部分是“类别”。地址本插件为地址元素设置了9个类别，需要在这九个类别种选择一类。
+ </description>
+  </item>
+  <item title="设置编辑列表" skip="true">
+ <description>地址本插件支持用户设置需要编辑列表项。用户可以选择或者取消默认的三个编辑列表项。
+ 在向导页面的第二页，选择选中或者去掉列表项前面的对勾，就可以选择或者去掉出现在“编辑”页面中的
+ 列表项。
+ </description>
+  </item>
+  <item title="编辑新元素的内容">
+ <description>在向导对话框中选择了完成后，地址本插件将会打开编辑器，跳转到“编辑”页面。在编辑
+ 页面中，选择左侧编辑列表中的列表项，在右侧编辑每个列表项的属性。
+ </description>  
+  </item>
+  <item title="查看列表内容" skip="true">
+ <description>在编辑的过程中，可以跳转编辑器的页面到其他页面来查看在“编辑”页面创建的编辑内容。
+ </description>
+  </item>
+</cheatsheet>

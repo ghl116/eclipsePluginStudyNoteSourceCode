@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="用户界面" link_to="toc.xml#uicomponent"> 
+	<topic label="编辑器"  href="html/基本用户界面/编辑器.htm"/>
+	<topic label="视图"  href="html/基本用户界面/视图.htm"/>
+	<topic label="透视图"  href="html/基本用户界面/透视图.htm"/>
+</toc>

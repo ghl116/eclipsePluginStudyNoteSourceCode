@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Adapter Plug-in
+Bundle-SymbolicName: rcpdev.adapter;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: rcpdev.adapter.Activator
+Bundle-Vendor: Harper
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ rcpdev.todo.core,
+ rcpdev.common.core,
+ rcpdev.contact.core,
+ org.eclipse.core.resources
+Eclipse-LazyStart: true

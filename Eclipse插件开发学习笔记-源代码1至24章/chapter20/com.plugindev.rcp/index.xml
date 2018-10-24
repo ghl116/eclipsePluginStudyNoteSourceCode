@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index version="1.0">
+	<entry keyword="地址本">
+		<topic href="html/concept/concept.html" />
+	</entry>
+	<entry keyword="任务">
+		<entry keyword="创建一个联系人">
+			<topic href="html/task/function.html" />
+		</entry>
+		<entry keyword="修改联系人内容">
+			<topic href="html/task/update.html" />
+		</entry>
+	</entry>
+</index>
